@@ -129,7 +129,28 @@ body {
   height: 100%;
   object-fit: contain;
 }
+.profile-card .product-images {
+  width: 260px !important;
+  height: 180px !important;
+}
 
+.profile-card .product-photo {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.profile-card .profile-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 500px) {
+  .profile-card .product-images {
+    width: 240px !important;
+    height: 170px !important;
+  
+}
 @media (max-width: 500px) {
 
   .product-card {
@@ -150,7 +171,7 @@ body {
   .profile-card {
     gap: 12px;
   }
-
+}
   .catalog {
     grid-template-columns: 1fr 1fr;
   }
