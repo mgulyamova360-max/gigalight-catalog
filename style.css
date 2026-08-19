@@ -134,7 +134,9 @@ body {
   flex: 1;
   min-width: 0;
 }
-
+.profile-image {
+  object-fit: contain !important;
+}
 @media (max-width: 500px) {
   .product-card {
     gap: 12px;
